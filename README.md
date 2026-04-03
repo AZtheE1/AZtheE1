@@ -1,66 +1,63 @@
-![banner](BANNER_IMAGE_LINK_HERE)
+<div align="center">
 
-# Md. Abu Zihad
-### CSE Student | Full-Stack Developer | ICPC 2025 Regional Finalist
+![Tech Banner](https://via.placeholder.com/800x200.png?text=Md.+Abu+Zihad+%7C+CSE+Student+%7C+Bangladesh+University+of+Professionals)
 
-CSE student at Bangladesh University of Professionals (CGPA: 3.88/4.00). ICPC 2025 Dhaka Regional Finalist. I build full-stack applications with a focus on performance and backend logic.
+# 👋 Hey there, I'm Md. Abu Zihad
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D084&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;ICPC+2025+Regional+Finalist;Software+Engineering+Enthusiast)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+### 🎓 About Me
+
+- 🛡 **Status:** 3rd-year CSE Student at **Bangladesh University of Professionals (BUP)**
+- 🏅 **Academic Achievement:** Current CGPA: **3.88 / 4.00**
+- 🏆 **Competitive Programming:** **ICPC 2025 Dhaka Regional Finalist** — solved among the top competitive programmers in Bangladesh.
+- 💻 **Core Focus:** Building high-performance full-stack applications with a deep focus on **Data Structures, Algorithms, and Scalable Backend Architectures**.
+- 🌱 **Current Learning:** Advanced System Design and DevOps workflows.
 
 ---
 
 ### 🛠 Tech Stack
 
-**Languages:** TypeScript, JavaScript, Java, C++, C  
-**Backend:** Node.js, NestJS, Express.js, REST APIs  
-**Frontend:** Next.js 15 (App Router), React, Tailwind CSS  
-**Database:** PostgreSQL (Supabase), MySQL  
-**Tools:** Git, Docker, Vercel, Jira, ClickUp
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=ts,js,java,cpp,c,nodejs,nestjs,nextjs,react,tailwind,postgres,mysql,docker,git&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
-### 🚀 Selected Projects
+### 🚀 Featured Projects
 
-#### **Routly** | [Repo/Demo](https://routly-rosy.vercel.app)
-*Unified student management platform for academic synchronization and notice automation.*
-* **Key Features:** Real-time schedule synchronization, automated exam alerts, and AI-powered notice parsing.
-* **Engineering Focus:** Built with Next.js 15 and NestJS. Integrated custom notice parsing to convert unstructured CR announcements into structured API updates. Implemented middleware-based session protection and real-time event subscriptions.
-* **Stack:** Next.js, NestJS, Supabase.
-
-#### **Homify** | [Repo](https://github.com/AZtheE1/Homify-WebApp)
-*Dijkstra-optimized property management and listing platform.*
-* **Key Features:** Proximity-driven search and budget-constrained property recommendations.
-* **Engineering Focus:** Integrated **Dijkstra’s Algorithm** for spatial proximity logic and **0/1 Knapsack** for multi-constraint budget optimization of property recommendations.
-* **Stack:** Java, MySQL.
-
-#### **E-Voting System** | [Repo](https://github.com/AZtheE1/E-Voting)
-*Tamper-resistant electronic voting system with RBAC and immutable audit trails.*
-* **Key Features:** Multi-role authentication (Voter, Admin, Auditor) and real-time vote verification.
-* **Engineering Focus:** Ensured data integrity using transaction-safe operations and validation logic to prevent duplicate voting.
-* **Stack:** Java, MySQL.
-
-#### **Personal Brain** | [Repo](https://github.com/AZtheE1/PerSonal-Brain-App)
-*Indexed knowledge management system for sub-second retrieval of heterogeneous data.*
-* **Key Features:** Full-text search and instant retrieval of receipts, notes, and transaction records.
-* **Engineering Focus:** Designed a custom indexing structure in Node.js for low-latency retrieval across diverse data types, optimizing for local-first performance.
-* **Stack:** Node.js, JavaScript.
+| Project | Description | Key Focus / Algorithms | Tech Stack |
+| :--- | :--- | :--- | :--- |
+| **Routly** | Unified student management ecosystem for academic synchronization. | **Automation:** AI notice parsing for real-time schedule updates. | Next.js 15, NestJS, Supabase |
+| **Homify** | Property management platform for urban coordination. | **Optimization:** Dijkstra’s for proximity and 0/1 Knapsack for budget logic. | Java, MySQL |
+| **E-Voting** | Tamper-resistant electronic voting platform. | **Integrity:** Transaction-safe operations and cryptographic consistency. | Java, MySQL |
+| **Personal Brain** | Personal knowledge indexed retrieval system. | **Search:** Custom indexing in Node.js for sub-second retrieval. | Node.js, JavaScript |
 
 ---
 
-### 🧠 Engineering Focus
+### 📊 GitHub Activity
 
-* Backend development and API design
-* Scalable system architecture
-* Problem solving using algorithms
-* Writing clean and maintainable code
+<div align="center">
 
----
+![AZtheE1's Stats](https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&theme=tokyonight&hide_border=false)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AZtheE1&theme=tokyonight&hide_border=false)
 
-### 📉 GitHub Stats
-![Md. Abu Zihad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AZtheE1&layout=compact&theme=transparent&hide_border=true)
+</div>
 
 ---
 
-### 📬 Contact & Links
-* **Email:** [azihad783@gmail.com](mailto:azihad783@gmail.com)
-* **LinkedIn:** [linkedin.com/in/md-abu-zihad-27908a311](https://linkedin.com/in/md-abu-zihad-27908a311)
-* **Portfolio:** [azthee1.github.io](https://azthee1.github.io/Portfolio---Md-Abu-Zihad/)
+### 📫 Connect with Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/md-abu-zihad-27908a311)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:azihad783@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?logo=google-chrome&logoColor=white)](https://azthee1.github.io/Portfolio---Md-Abu-Zihad/)
+
+</div>
