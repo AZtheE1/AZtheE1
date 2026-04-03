@@ -1,6 +1,6 @@
 <div align="center">
 
-![Tech Banner](https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif)
+<img src="https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif" width="100%" alt="Tech Banner">
 
 # 👋 Hey there, I'm Md. Abu Zihad
 
