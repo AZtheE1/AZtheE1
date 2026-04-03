@@ -1,12 +1,12 @@
-<div align="center">
+<p align="center">
+  <img src="https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif" width="100%" height="200" style="object-fit: cover; object-position: center; border-radius: 8px;">
+</p>
 
-<img src="https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif" width="100%" alt="Tech Banner">
+<h1 align="center">Md. Abu Zihad</h1>
 
-# 👋 Hey there, I'm Md. Abu Zihad
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D084&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;ICPC+2025+Regional+Finalist;Software+Engineering+Enthusiast)](https://git.io/typing-svg)
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2ED1A2&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;ICPC+2025+Regional+Finalist;CSE+Student+at+BUP" alt="Typing SVG" />
+</p>
 
 ---
 
