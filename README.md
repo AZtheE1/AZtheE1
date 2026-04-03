@@ -95,6 +95,13 @@ Computer Science student at **Bangladesh University of Professionals (BUP)** (CG
   <img src="https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&theme=tokyonight&count_private=true" />
 </p>
 
+---
+
+### 📖 References
+- **Iyolita Islam** | *Lecturer, Department of CSE, Bangladesh University of Professionals* | [iyolita.islam@bup.edu.bd](mailto:iyolita.islam@bup.edu.bd)
+- **Rumana Yasmin** | *Lecturer, Department of CSE, Bangladesh University of Professionals* | [rumana.yasmin@bup.edu.bd](mailto:rumana.yasmin@bup.edu.bd)
+
 <p align="center">
   <i>"Combining engineering precision with product vision."</i>
 </p>
+
