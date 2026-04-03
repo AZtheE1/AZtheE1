@@ -1,9 +1,9 @@
 ![banner](BANNER_IMAGE_LINK_HERE)
 
 # Md. Abu Zihad
-### Computer Science Engineer | Full-Stack Developer | ICPC 2025 Regional Finalist
+### CSE Student | Full-Stack Developer | ICPC 2025 Regional Finalist
 
-Computer Science student at Bangladesh University of Professionals (CGPA: 3.88/4.00, top of cohort). ICPC 2025 Dhaka Regional Finalist. Focused on high-performance full-stack systems, algorithmic optimization, and scalable SSR architectures.
+CSE student at Bangladesh University of Professionals (CGPA: 3.88/4.00). ICPC 2025 Dhaka Regional Finalist. I build full-stack applications with a focus on performance and backend logic.
 
 ---
 
@@ -34,7 +34,7 @@ Computer Science student at Bangladesh University of Professionals (CGPA: 3.88/4
 #### **E-Voting System** | [Repo](https://github.com/AZtheE1/E-Voting)
 *Tamper-resistant electronic voting system with RBAC and immutable audit trails.*
 * **Key Features:** Multi-role authentication (Voter, Admin, Auditor) and real-time vote verification.
-* **Engineering Focus:** Enforced cryptographic consistency in MySQL records and implemented atomic transaction handling to ensure zero double-voting and high-integrity data persistence.
+* **Engineering Focus:** Ensured data integrity using transaction-safe operations and validation logic to prevent duplicate voting.
 * **Stack:** Java, MySQL.
 
 #### **Personal Brain** | [Repo](https://github.com/AZtheE1/PerSonal-Brain-App)
@@ -46,9 +46,11 @@ Computer Science student at Bangladesh University of Professionals (CGPA: 3.88/4
 ---
 
 ### 🧠 Engineering Focus
-* **Scalable Architecture:** Experience in SSR, middleware implementation, and RESTful service design.
-* **Algorithmic Efficiency:** Competitive programming background (ICPC 2025) applied to production systems and optimization constraints.
-* **Product Strategy:** Expertise in SRS writing and MoSCoW analysis for technical feature prioritization and lifecycle management.
+
+* Backend development and API design
+* Scalable system architecture
+* Problem solving using algorithms
+* Writing clean and maintainable code
 
 ---
 
