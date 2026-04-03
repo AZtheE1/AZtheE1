@@ -1,6 +1,6 @@
 <div align="center">
 
-![Tech Banner](https://via.placeholder.com/800x200.png?text=Md.+Abu+Zihad+%7C+CSE+Student+%7C+Bangladesh+University+of+Professionals)
+![Tech Banner](https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Md.%20Abu%20Zihad&fontSize=70)
 
 # 👋 Hey there, I'm Md. Abu Zihad
 
