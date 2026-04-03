@@ -3,57 +3,56 @@
 # Md. Abu Zihad
 ### Computer Science Engineer | Full-Stack Developer | ICPC 2025 Regional Finalist
 
-Final-year Computer Science student at Bangladesh University of Professionals (CGPA: 3.88/4.00), specializing in high-performance full-stack systems and algorithmic optimization. Proven track record in shipping production-grade applications with a focus on scalable architecture and data-driven logic.
+Computer Science student at Bangladesh University of Professionals (CGPA: 3.88/4.00, top of cohort). ICPC 2025 Dhaka Regional Finalist. Focused on high-performance full-stack systems, algorithmic optimization, and scalable SSR architectures.
 
 ---
 
 ### 🛠 Tech Stack
 
-**Languages:** TypeScript, JavaScript, Java, C, C++  
-**Backend:** Node.js, NestJS, Express.js, RESTful APIs  
+**Languages:** TypeScript, JavaScript, Java, C++, C  
+**Backend:** Node.js, NestJS, Express.js, REST APIs  
 **Frontend:** Next.js 15 (App Router), React, Tailwind CSS  
 **Database:** PostgreSQL (Supabase), MySQL  
-**Tools:** Git, GitHub, Docker, Vercel, Jira, ClickUp
+**Tools:** Git, Docker, Vercel, Jira, ClickUp
 
 ---
 
 ### 🚀 Selected Projects
 
 #### **Routly** | [Repo/Demo](https://routly-rosy.vercel.app)
-*Comprehensive student management platform consolidating academic workflows.*
-* **Key Features:** Real-time schedule updates, automated exam alerts, and centralized notice distribution.
-* **Engineering Focus:** Built with Next.js 15 and NestJS using a Server-Side Rendering (SSR) architecture. Integrated an AI-based notice parsing system to automate schedule updates from unstructured text announcements.
-* **Stack:** Next.js, NestJS, Supabase, Tailwind CSS.
+*Unified student management platform for academic synchronization and notice automation.*
+* **Key Features:** Real-time schedule synchronization, automated exam alerts, and AI-powered notice parsing.
+* **Engineering Focus:** Built with Next.js 15 and NestJS. Integrated custom notice parsing to convert unstructured CR announcements into structured API updates. Implemented middleware-based session protection and real-time event subscriptions.
+* **Stack:** Next.js, NestJS, Supabase.
 
 #### **Homify** | [Repo](https://github.com/AZtheE1/Homify-WebApp)
-*Property management and listing coordination platform for urban environments.*
-* **Key Features:** Proximity-based search and budget-optimized property recommendations.
-* **Engineering Focus:** Implemented **Dijkstra’s Algorithm** for precise proximity searching and the **0/1 Knapsack Algorithm** to optimize property listings based on tenant budget constraints.
+*Dijkstra-optimized property management and listing platform.*
+* **Key Features:** Proximity-driven search and budget-constrained property recommendations.
+* **Engineering Focus:** Integrated **Dijkstra’s Algorithm** for spatial proximity logic and **0/1 Knapsack** for multi-constraint budget optimization of property recommendations.
 * **Stack:** Java, MySQL.
 
 #### **E-Voting System** | [Repo](https://github.com/AZtheE1/E-Voting)
-*Secure, tamper-resistant electronic voting platform with role-based transparency.*
-* **Key Features:** Multi-role authentication (Voter, Admin, Auditor) and immutable audit trails.
-* **Engineering Focus:** Enforced cryptographic consistency in MySQL records and implemented atomic transaction handling to ensure zero double-voting and data integrity.
+*Tamper-resistant electronic voting system with RBAC and immutable audit trails.*
+* **Key Features:** Multi-role authentication (Voter, Admin, Auditor) and real-time vote verification.
+* **Engineering Focus:** Enforced cryptographic consistency in MySQL records and implemented atomic transaction handling to ensure zero double-voting and high-integrity data persistence.
 * **Stack:** Java, MySQL.
 
 #### **Personal Brain** | [Repo](https://github.com/AZtheE1/PerSonal-Brain-App)
-*Knowledge management system for indexed retrieval of heterogeneous daily data.*
-* **Key Features:** Full-text search and instant retrieval of notes, receipts, and transaction records.
-* **Engineering Focus:** Designed a self-contained local database optimized for sub-second retrieval across unstructured data types using Node.js.
+*Indexed knowledge management system for sub-second retrieval of heterogeneous data.*
+* **Key Features:** Full-text search and instant retrieval of receipts, notes, and transaction records.
+* **Engineering Focus:** Designed a custom indexing structure in Node.js for low-latency retrieval across diverse data types, optimizing for local-first performance.
 * **Stack:** Node.js, JavaScript.
 
 ---
 
 ### 🧠 Engineering Focus
-* **Scalable Architecture:** Expertise in SSR, middleware implementation, and RESTful service design.
-* **Algorithmic Efficiency:** competitive programming background (ICPC 2025 Regional Finalist) used to solve complex system constraints.
-* **Product Integrity:** Strong background in SRS writing and MoSCoW prioritization to bridge engineering and business needs.
+* **Scalable Architecture:** Experience in SSR, middleware implementation, and RESTful service design.
+* **Algorithmic Efficiency:** Competitive programming background (ICPC 2025) applied to production systems and optimization constraints.
+* **Product Strategy:** Expertise in SRS writing and MoSCoW analysis for technical feature prioritization and lifecycle management.
 
 ---
 
 ### 📉 GitHub Stats
-
 ![Md. Abu Zihad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AZtheE1&layout=compact&theme=transparent&hide_border=true)
 
