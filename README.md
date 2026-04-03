@@ -1,6 +1,6 @@
 <p align="center">
   <!-- This uses a container to keep the image crisp without forcing a tiny height -->
-  <img src="https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif" width="100%" style="border-radius: 10px; border: 1px solid #30363d;">
+  <img src="https://i.pinimg.com/originals/ca/26/2e/ca262e0354eea311c41134c3e4bc3bc2.gif" width="100%" style="border-radius: 10px; border: 1px solid #30363d;">
 </p>
 
 <h1 align="center">Md. Abu Zihad</h1>
