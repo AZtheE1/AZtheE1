@@ -1,6 +1,6 @@
 <div align="center">
 
-![Tech Banner](https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Md.%20Abu%20Zihad&fontSize=70)
+![Tech Banner](https://i.pinimg.com/originals/91/81/55/918155387ad114a903cba1a13506e3be.gif)
 
 # 👋 Hey there, I'm Md. Abu Zihad
 
