@@ -48,7 +48,8 @@
 
 <div align="center">
 
-![AZtheE1's Stats](https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&theme=tokyonight&hide_border=false)
+![AZtheE1's Stats](https://github-readme-stats-one.vercel.app/api?username=AZtheE1&show_icons=true&theme=tokyonight&hide_border=false)
+![Top Langs](https://github-readme-stats-one.vercel.app/api/top-langs/?username=AZtheE1&layout=compact&theme=tokyonight&hide_border=false)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AZtheE1&theme=tokyonight&hide_border=false)
 
 </div>
