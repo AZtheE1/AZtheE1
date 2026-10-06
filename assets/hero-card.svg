@@ -17,9 +17,9 @@
   <rect width="900" height="400" fill="url(#grid)"/>
 
   <text x="50" y="70" fill="#94a3b8" font-family="monospace" font-size="12" letter-spacing="2">HELLO, WORLD, I'M</text>
-  <text x="50" y="130" fill="#e2e8f0" font-family="Courier New, monospace" font-size="48" font-weight="900" letter-spacing="4">Md. Abu Zihad</text>
-  <text x="50" y="180" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold">TypeScript / Java / Dart</text>
-  <text x="50" y="210" fill="#94a3b8" font-family="monospace" font-size="12">Dhaka, Mirpur 12</text>
+  <text x="50" y="110" fill="#e2e8f0" font-family="Courier New, monospace" font-size="48" font-weight="900" letter-spacing="4">Md. Abu Zihad</text>
+  <text x="50" y="145" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold">TypeScript / Java / Dart</text>
+  <text x="50" y="170" fill="#94a3b8" font-family="monospace" font-size="12">Dhaka, Mirpur 12</text>
   
   <circle cx="700" cy="150" r="105" fill="none" stroke="url(#glow)" stroke-width="3" filter="url(#blur)">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
@@ -40,21 +40,21 @@
   </circle>
   <text x="50" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">13</text>
   
-  <text x="250" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">STARS</text>
-  <circle cx="295" cy="316" r="3" fill="#06b6d4">
+  <text x="270" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">STARS</text>
+  <circle cx="315" cy="316" r="3" fill="#06b6d4">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" />
   </circle>
-  <text x="250" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">2</text>
+  <text x="270" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">2</text>
   
-  <text x="450" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">CONTRIBUTIONS</text>
-  <circle cx="545" cy="316" r="3" fill="#06b6d4">
+  <text x="490" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">CONTRIBUTIONS</text>
+  <circle cx="585" cy="316" r="3" fill="#06b6d4">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
   </circle>
-  <text x="450" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">818</text>
+  <text x="490" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">818</text>
   
-  <text x="650" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">FOLLOWERS</text>
-  <circle cx="720" cy="316" r="3" fill="#06b6d4">
+  <text x="710" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">FOLLOWERS</text>
+  <circle cx="780" cy="316" r="3" fill="#06b6d4">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite" />
   </circle>
-  <text x="650" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">7</text>
+  <text x="710" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">7</text>
 </svg>
