@@ -19,14 +19,7 @@
 
 ## 🚀 Auto-Curated Featured Projects
 *(Dynamically pulled via Python script based on your top pinned or starred repositories)*
-| Project | Description | Tech / Language |
-| :--- | :--- | :--- |
-| **[case-study-SSLcommerz](https://github.com/AZtheE1/case-study-SSLcommerz)** | No description provided. | `JavaScript` |
-| **[E-Voting](https://github.com/AZtheE1/E-Voting)** | A secure electronic voting desktop application built with Java & MySQL, featuring voter authentication and data integrity controls. | `Java` |
-| **[DevSphere](https://github.com/AZtheE1/DevSphere)** | No description provided. | `TypeScript` |
-| **[Dice-rolling-Android-App](https://github.com/AZtheE1/Dice-rolling-Android-App)** | A modern, animated multiplayer dice rolling game built with Flutter and Firebase. Features an AI opponent, Google Sign-In, and dynamic UI transitions. | `Dart` |
-| **[salesman-ai](https://github.com/AZtheE1/salesman-ai)** | An intelligent Flutter mobile app for field sales officers, featuring an AI Voice Mentor, territory pipeline management, and an AR building visualizer. | `HTML` |
-
+{{latest_projects}}
 
 ---
 
