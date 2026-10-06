@@ -5,9 +5,9 @@
 <table width="100%">
   <tr>
     <td width="30%" align="center">
-      <img src="https://avatars.githubusercontent.com/AZtheE1?size=250" width="160" alt="Halftone Avatar Placeholder" style="border-radius:50%;" />
+      <img src="./assets/avatar-dithered.png" width="160" alt="Dithered Portrait" style="border-radius:8px; border: 2px solid #34d399;" />
       <br>
-      <sub><i>(Dithered Portrait Placeholder)</i></sub>
+      <sub><i>(Neural-Matrix Portrait)</i></sub>
     </td>
     <td width="70%">
 <pre>
@@ -40,7 +40,7 @@ guest@portfolio:~$ systemctl status neural-engine
 ---
 
 ## 🚀 Auto-Curated Featured Projects
-*(Dynamically pulled via Python script based on your top pinned or starred repositories)*
+*(Dynamically pulled via Python script prioritizing Full-Stack & AI)*
 
 | Project | Description | Tech / Language |
 | :--- | :--- | :--- |
@@ -56,11 +56,17 @@ guest@portfolio:~$ systemctl status neural-engine
 ## 📊 Live Telemetry & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&hide_border=true&bg_color=131c18&title_color=34d399&icon_color=06b6d4&text_color=e2e8f0" width="48%" />
+  <!-- Detailed Language Usage Tracker -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AZtheE1&layout=compact&hide_border=true&bg_color=131c18&title_color=34d399&text_color=e2e8f0" width="48%" />
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=AZtheE1&show_icons=true&hide_border=true&bg_color=131c18&title_color=34d399&icon_color=06b6d4&text_color=e2e8f0" width="48%" />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AZtheE1&hide_border=true&background=131c18&stroke=065f46&ring=34d399&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e2e8f0" width="98%" />
+  <!-- Live Activity / Streak Meter -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AZtheE1&hide_border=true&background=131c18&stroke=065f46&ring=34d399&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e2e8f0" width="48%" />
+  <!-- Live WakaTime Telemetry Card -->
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=AZtheE1&layout=compact&hide_border=true&bg_color=131c18&title_color=34d399&text_color=e2e8f0" width="48%" />
 </p>
 
 ---
