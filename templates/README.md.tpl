@@ -20,6 +20,7 @@ guest@portfolio:~$ cat mission_statement.txt
 
 guest@portfolio:~$ systemctl status neural-engine
 > Active (running)
+
 ```
 
 ---
@@ -59,13 +60,12 @@ guest@portfolio:~$ systemctl status neural-engine
 ---
 
 ```bash
-guest@portfolio:~$ ping -c 3 github.com/AZtheE1
+guest@portfolio:~$ ping -c 3 [github.com/AZtheE1](https://github.com/AZtheE1)
 > 64 bytes from github.com: icmp_seq=1 ttl=55 time=12.4 ms
 > 64 bytes from github.com: icmp_seq=2 ttl=55 time=11.2 ms
 > 64 bytes from github.com: icmp_seq=3 ttl=55 time=11.8 ms
 
 guest@portfolio:~$ contact --social
 > Email: reach out via GitHub profile links
-```
 
----
+```
