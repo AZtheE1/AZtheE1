@@ -4,6 +4,10 @@
   <code>🔴 🟡 🟢 GITSKINS / LIVING IDENTITY</code>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;AI+Systems+Architect;Neural+Pipeline+Engineer" alt="Typing Animation" />
+</p>
+
 <img src="./assets/hero-card.svg" width="100%" alt="Hero Card" />
 <br><br>
 

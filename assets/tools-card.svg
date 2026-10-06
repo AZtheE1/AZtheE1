@@ -8,23 +8,31 @@
   <text x="52" y="137" fill="#fff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TS</text>
   <text x="40" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">TypeScript</text>
   <text x="40" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">25% of public code</text>
-  <rect x="40" y="205" width="160" height="2" fill="#1f2937"/><rect x="40" y="205" width="40" height="2" fill="#3178C6"/>
+  <rect x="40" y="205" width="160" height="2" fill="#1f2937"/><rect x="40" y="205" width="40" height="2" fill="#3178C6">
+    <animate attributeName="width" from="0" to="40" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="250" y="120" width="24" height="24" rx="4" fill="#b07219" fill-opacity="0.2" stroke="#b07219" stroke-width="1"/>
   <text x="262" y="137" fill="#b07219" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">J</text>
   <text x="250" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">Java</text>
   <text x="250" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">24% of public code</text>
-  <rect x="250" y="205" width="160" height="2" fill="#1f2937"/><rect x="250" y="205" width="38" height="2" fill="#b07219"/>
+  <rect x="250" y="205" width="160" height="2" fill="#1f2937"/><rect x="250" y="205" width="38" height="2" fill="#b07219">
+    <animate attributeName="width" from="0" to="38" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="460" y="120" width="24" height="24" rx="4" fill="#00B4AB"/>
   <text x="472" y="137" fill="#fff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">D</text>
   <text x="460" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">Dart</text>
   <text x="460" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">17% of public code</text>
-  <rect x="460" y="205" width="160" height="2" fill="#1f2937"/><rect x="460" y="205" width="27" height="2" fill="#00B4AB"/>
+  <rect x="460" y="205" width="160" height="2" fill="#1f2937"/><rect x="460" y="205" width="27" height="2" fill="#00B4AB">
+    <animate attributeName="width" from="0" to="27" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="670" y="120" width="24" height="24" rx="4" fill="#e34c26"/>
   <text x="682" y="137" fill="#fff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">5</text>
   <text x="670" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">HTML</text>
   <text x="670" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">17% of public code</text>
-  <rect x="670" y="205" width="160" height="2" fill="#1f2937"/><rect x="670" y="205" width="27" height="2" fill="#e34c26"/>
+  <rect x="670" y="205" width="160" height="2" fill="#1f2937"/><rect x="670" y="205" width="27" height="2" fill="#e34c26">
+    <animate attributeName="width" from="0" to="27" dur="1.5s" fill="freeze" />
+  </rect>
 </svg>

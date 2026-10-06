@@ -6,28 +6,40 @@
   <path d="M 200 200 Q 350 250 500 200 T 750 150" fill="none" stroke="#1f2937" stroke-width="2" stroke-dasharray="4 4"/>
   <path d="M 500 200 Q 600 300 700 250" fill="none" stroke="#1f2937" stroke-width="2" stroke-dasharray="4 4"/>
 
-  <circle cx="200" cy="200" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/>
+  <circle cx="200" cy="200" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2s" repeatCount="indefinite" />
+  </circle>
   <circle cx="200" cy="200" r="35" fill="#131c18" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
   <circle cx="200" cy="200" r="15" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1"/>
   <text x="200" y="204" fill="#f59e0b" font-family="monospace" font-size="10" text-anchor="middle">J</text>
   <text x="200" y="270" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">salesman-ai</text>
   <text x="200" y="290" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">HTML • 0 stars</text>
 
-  <circle cx="500" cy="200" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/>
+  <circle cx="500" cy="200" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 200" to="360 500 200" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2s" repeatCount="indefinite" />
+  </circle>
   <circle cx="500" cy="200" r="35" fill="#131c18" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
   <circle cx="500" cy="200" r="15" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1"/>
   <text x="500" y="204" fill="#f59e0b" font-family="monospace" font-size="10" text-anchor="middle">J</text>
   <text x="500" y="270" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">case-study-SSLcommerz</text>
   <text x="500" y="290" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">JavaScript • 1 stars</text>
 
-  <circle cx="750" cy="150" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/>
+  <circle cx="750" cy="150" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 750 150" to="360 750 150" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2s" repeatCount="indefinite" />
+  </circle>
   <circle cx="750" cy="150" r="35" fill="#131c18" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
   <circle cx="750" cy="150" r="15" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1"/>
   <text x="750" y="154" fill="#f59e0b" font-family="monospace" font-size="10" text-anchor="middle">J</text>
   <text x="750" y="220" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">E-Voting</text>
   <text x="750" y="240" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">Java • 1 stars</text>
 
-  <circle cx="700" cy="250" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/>
+  <circle cx="700" cy="250" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 700 250" to="360 700 250" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2s" repeatCount="indefinite" />
+  </circle>
   <circle cx="700" cy="250" r="35" fill="#131c18" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
   <circle cx="700" cy="250" r="15" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1"/>
   <text x="700" y="254" fill="#f59e0b" font-family="monospace" font-size="10" text-anchor="middle">J</text>

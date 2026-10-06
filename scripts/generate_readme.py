@@ -13,6 +13,17 @@ def generate_hero_svg(avatar_b64, stats):
     followers = stats.get('followers', 7)
     
     return f"""<svg width="900" height="400" viewBox="0 0 900 400" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    </filter>
+    <clipPath id="avatarClip"><circle cx="700" cy="150" r="90" /></clipPath>
+  </defs>
+
   <rect width="900" height="400" rx="8" fill="#131c18" stroke="#1f2937" stroke-width="1"/>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
     <path d="M 40 0 L 0 0 0 40 M 0 40 L 40 40" fill="none" stroke="#1f2937" stroke-width="0.5" opacity="0.3"/>
@@ -24,27 +35,43 @@ def generate_hero_svg(avatar_b64, stats):
   <text x="50" y="180" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold">TypeScript / Java / Dart</text>
   <text x="50" y="210" fill="#94a3b8" font-family="monospace" font-size="12">Dhaka, Mirpur 12</text>
   
-  <circle cx="700" cy="150" r="110" fill="none" stroke="#1f2937" stroke-width="1"/>
-  <circle cx="700" cy="150" r="140" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 8" opacity="0.4"/>
-  <clipPath id="avatarClip"><circle cx="700" cy="150" r="90" /></clipPath>
+  <!-- Pulsing Background Ring -->
+  <circle cx="700" cy="150" r="105" fill="none" stroke="url(#glow)" stroke-width="3" filter="url(#blur)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="r" values="95;105;95" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Rotating dashed ring -->
+  <circle cx="700" cy="150" r="130" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 8" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="0 700 150" to="360 700 150" dur="20s" repeatCount="indefinite"/>
+  </circle>
+
   <image x="610" y="60" width="180" height="180" preserveAspectRatio="xMidYMid slice" href="{avatar_b64}" clip-path="url(#avatarClip)" />
   
   <line x1="50" y1="280" x2="850" y2="280" stroke="#1f2937" stroke-width="1"/>
   
   <text x="50" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">REPOSITORIES</text>
-  <circle cx="140" cy="316" r="3" fill="#06b6d4" />
+  <circle cx="140" cy="316" r="3" fill="#06b6d4">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
   <text x="50" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">{repos}</text>
   
   <text x="250" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">STARS</text>
-  <circle cx="295" cy="316" r="3" fill="#06b6d4" />
+  <circle cx="295" cy="316" r="3" fill="#06b6d4">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" />
+  </circle>
   <text x="250" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">2</text>
   
   <text x="450" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">CONTRIBUTIONS</text>
-  <circle cx="545" cy="316" r="3" fill="#06b6d4" />
+  <circle cx="545" cy="316" r="3" fill="#06b6d4">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+  </circle>
   <text x="450" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">818</text>
   
   <text x="650" y="320" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="1">FOLLOWERS</text>
-  <circle cx="720" cy="316" r="3" fill="#06b6d4" />
+  <circle cx="720" cy="316" r="3" fill="#06b6d4">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite" />
+  </circle>
   <text x="650" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">{followers}</text>
 </svg>"""
 
@@ -72,6 +99,10 @@ def generate_identity_svg(stats):
   <rect x="630" y="35" width="90" height="22" rx="4" fill="#1f2937"/>
   <text x="675" y="50" fill="#e2e8f0" font-family="monospace" font-size="10" text-anchor="middle" letter-spacing="1">LIVE SIGNAL</text>
   
+  <circle cx="730" cy="46" r="4" fill="#34d399">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+
   <text x="630" y="90" fill="#e2e8f0" font-family="sans-serif" font-size="14"><tspan font-weight="bold">{repos}</tspan> repos</text>
   <text x="630" y="115" fill="#e2e8f0" font-family="sans-serif" font-size="14"><tspan font-weight="bold">2</tspan> stars</text>
   <text x="630" y="140" fill="#e2e8f0" font-family="sans-serif" font-size="14"><tspan font-weight="bold">818</tspan> contributions</text>
@@ -112,25 +143,33 @@ def generate_tools_svg():
   <text x="52" y="137" fill="#fff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TS</text>
   <text x="40" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">TypeScript</text>
   <text x="40" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">25% of public code</text>
-  <rect x="40" y="205" width="160" height="2" fill="#1f2937"/><rect x="40" y="205" width="40" height="2" fill="#3178C6"/>
+  <rect x="40" y="205" width="160" height="2" fill="#1f2937"/><rect x="40" y="205" width="40" height="2" fill="#3178C6">
+    <animate attributeName="width" from="0" to="40" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="250" y="120" width="24" height="24" rx="4" fill="#b07219" fill-opacity="0.2" stroke="#b07219" stroke-width="1"/>
   <text x="262" y="137" fill="#b07219" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">J</text>
   <text x="250" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">Java</text>
   <text x="250" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">24% of public code</text>
-  <rect x="250" y="205" width="160" height="2" fill="#1f2937"/><rect x="250" y="205" width="38" height="2" fill="#b07219"/>
+  <rect x="250" y="205" width="160" height="2" fill="#1f2937"/><rect x="250" y="205" width="38" height="2" fill="#b07219">
+    <animate attributeName="width" from="0" to="38" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="460" y="120" width="24" height="24" rx="4" fill="#00B4AB"/>
   <text x="472" y="137" fill="#fff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">D</text>
   <text x="460" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">Dart</text>
   <text x="460" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">17% of public code</text>
-  <rect x="460" y="205" width="160" height="2" fill="#1f2937"/><rect x="460" y="205" width="27" height="2" fill="#00B4AB"/>
+  <rect x="460" y="205" width="160" height="2" fill="#1f2937"/><rect x="460" y="205" width="27" height="2" fill="#00B4AB">
+    <animate attributeName="width" from="0" to="27" dur="1.5s" fill="freeze" />
+  </rect>
 
   <rect x="670" y="120" width="24" height="24" rx="4" fill="#e34c26"/>
   <text x="682" y="137" fill="#fff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">5</text>
   <text x="670" y="170" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">HTML</text>
   <text x="670" y="190" fill="#94a3b8" font-family="sans-serif" font-size="10">17% of public code</text>
-  <rect x="670" y="205" width="160" height="2" fill="#1f2937"/><rect x="670" y="205" width="27" height="2" fill="#e34c26"/>
+  <rect x="670" y="205" width="160" height="2" fill="#1f2937"/><rect x="670" y="205" width="27" height="2" fill="#e34c26">
+    <animate attributeName="width" from="0" to="27" dur="1.5s" fill="freeze" />
+  </rect>
 </svg>"""
 
 def generate_projects_svg(repos):
@@ -149,7 +188,10 @@ def generate_projects_svg(repos):
         desc = repo.get('language') or 'Java'
         stars = repo.get('stargazers_count', 0)
         svg += f"""
-  <circle cx="{cx}" cy="{cy}" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/>
+  <circle cx="{cx}" cy="{cy}" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="{10 + i*2}s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2s" repeatCount="indefinite" />
+  </circle>
   <circle cx="{cx}" cy="{cy}" r="35" fill="#131c18" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
   <circle cx="{cx}" cy="{cy}" r="15" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1"/>
   <text x="{cx}" y="{cy+4}" fill="#f59e0b" font-family="monospace" font-size="10" text-anchor="middle">J</text>
@@ -167,12 +209,21 @@ def generate_energy_svg():
   <line x1="40" y1="100" x2="860" y2="100" stroke="#1f2937" stroke-width="1" stroke-dasharray="8 8"/>
   <g fill="#34d399">
     <circle cx="100" cy="150" r="2" opacity="0.2"/><circle cx="120" cy="150" r="3" opacity="0.5"/>
-    <circle cx="140" cy="150" r="4" opacity="0.8"/><circle cx="160" cy="140" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)"/>
+    <circle cx="140" cy="150" r="4" opacity="0.8"/>
+    <circle cx="160" cy="140" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+    </circle>
     <circle cx="180" cy="160" r="3" opacity="0.6"/><circle cx="200" cy="150" r="2" opacity="0.3"/>
     <circle cx="300" cy="170" r="2" opacity="0.4"/><circle cx="320" cy="160" r="4" opacity="0.7"/>
-    <circle cx="340" cy="130" r="5" opacity="1.0"/><circle cx="360" cy="140" r="3" opacity="0.5"/>
+    <circle cx="340" cy="130" r="5" opacity="1.0"/>
+    <circle cx="360" cy="140" r="3" opacity="0.5">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" />
+    </circle>
     <circle cx="500" cy="160" r="4" opacity="0.8"/><circle cx="520" cy="150" r="3" opacity="0.6"/>
-    <circle cx="540" cy="150" r="2" opacity="0.4"/><circle cx="700" cy="150" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)"/>
+    <circle cx="540" cy="150" r="2" opacity="0.4"/>
+    <circle cx="700" cy="150" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" repeatCount="indefinite" />
+    </circle>
     <circle cx="720" cy="140" r="4" opacity="0.8"/><circle cx="740" cy="160" r="3" opacity="0.5"/>
     <circle cx="760" cy="170" r="2" opacity="0.2"/>
   </g>
