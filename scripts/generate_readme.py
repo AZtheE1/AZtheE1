@@ -1,6 +1,25 @@
 import os
 import requests
 
+def get_language_badge(lang):
+    if not lang:
+        return ""
+    lang_lower = lang.lower()
+    if 'dart' in lang_lower:
+        return '<img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white" alt="Dart" />'
+    elif 'typescript' in lang_lower:
+        return '<img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript" />'
+    elif 'python' in lang_lower:
+        return '<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />'
+    elif 'javascript' in lang_lower:
+        return '<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />'
+    elif 'html' in lang_lower:
+        return '<img src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white" alt="HTML" />'
+    elif 'java' in lang_lower and 'javascript' not in lang_lower:
+        return '<img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" alt="Java" />'
+    else:
+        return f'`{lang}`'
+
 def fetch_top_repositories():
     username = os.getenv("GITHUB_REPOSITORY_OWNER")
     url = f"https://api.github.com/users/{username}/repos?sort=updated&per_page=100"
@@ -39,9 +58,10 @@ def fetch_top_repositories():
             if 'dart' in name_lower or 'flutter' in name_lower:
                 lang = "Dart"
             else:
-                lang = "TypeScript / Python"
+                lang = "TypeScript"
                 
-        markdown_output += f"| **[{name}]({html_url})** | {desc} | `{lang}` |\n"
+        lang_badge = get_language_badge(lang)
+        markdown_output += f"| **[{name}]({html_url})** | {desc} | {lang_badge} |\n"
         
     return markdown_output
 
