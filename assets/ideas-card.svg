@@ -1,0 +1,21 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="250" rx="8" fill="#131c18" stroke="#1f2937" stroke-width="1"/>
+  <text x="40" y="40" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="2">CURRENT FOCUS</text>
+  <text x="40" y="75" fill="#e2e8f0" font-family="monospace" font-size="20" font-weight="bold">Ideas taking shape</text>
+  <line x1="40" y1="100" x2="860" y2="100" stroke="#1f2937" stroke-width="1" stroke-dasharray="8 8"/>
+  
+  <text x="40" y="150" fill="#06b6d4" font-family="monospace" font-size="28" font-weight="bold">01</text>
+  <line x1="40" y1="170" x2="200" y2="170" stroke="#1f2937" stroke-width="1"/>
+  <text x="40" y="200" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">TypeScript</text>
+  <text x="40" y="220" fill="#94a3b8" font-family="sans-serif" font-size="12">Current focus</text>
+  
+  <text x="340" y="150" fill="#06b6d4" font-family="monospace" font-size="28" font-weight="bold">02</text>
+  <line x1="340" y1="170" x2="500" y2="170" stroke="#1f2937" stroke-width="1"/>
+  <text x="340" y="200" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">Java</text>
+  <text x="340" y="220" fill="#94a3b8" font-family="sans-serif" font-size="12">In the build queue</text>
+  
+  <text x="640" y="150" fill="#06b6d4" font-family="monospace" font-size="28" font-weight="bold">03</text>
+  <line x1="640" y1="170" x2="800" y2="170" stroke="#1f2937" stroke-width="1"/>
+  <text x="640" y="200" fill="#e2e8f0" font-family="monospace" font-size="14" font-weight="bold">HTML</text>
+  <text x="640" y="220" fill="#94a3b8" font-family="sans-serif" font-size="12">In the build queue</text>
+</svg>

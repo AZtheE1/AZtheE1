@@ -1,48 +1,45 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0b0f10&height=100&section=header&text=WOW%20PROFILE%20::%20AZtheE1%20::%20LIVE&fontSize=16&fontColor=34d399&fontAlignY=80" width="100%" />
+<p align="left">
+  <code>🔴 🟡 🟢 GITSKINS / LIVING IDENTITY</code>
+</p>
 
-</div>
+<img src="./assets/hero-card.svg" width="100%" alt="Hero Card" />
+<br><br>
 
----
+<h2 align="left">Identity, with signal</h2>
+<img src="./assets/identity-card.svg" width="100%" alt="Identity Card" />
 
-<div align="center">
-  <img src="./assets/hero-card.svg" width="100%" alt="Hero Card" />
-</div>
+<br><br>
+<div align="center">◇──────────────◇</div>
+<br><br>
 
+<h2 align="left">What moves the work</h2>
+<img src="./assets/ideas-card.svg" width="100%" alt="Ideas taking shape" />
 <br>
+<p align="center"><sub>Positioning is useful when the proof is close behind it.</sub></p>
 
-<div align="center">
-  <img src="./assets/identity-card.svg" width="100%" alt="Identity Card" />
-</div>
+<br><br>
+<div align="center">◇──────────────◇</div>
+<br><br>
 
----
+<h2 align="left">The tools behind the signal</h2>
+<img src="./assets/tools-card.svg" width="100%" alt="Tech spectrum" />
+<br>
+<p align="center"><sub>TypeScript · Java · HTML · Dart · JavaScript · CSS · C++ · CMake · chosen for the work, not the trend</sub></p>
 
-## 🔭 Current Focus — Ideas taking shape
+<br><br>
+<div align="center">◇──────────────◇</div>
+<br><br>
 
-| 01 | 02 | 03 |
-| :--- | :--- | :--- |
-| **TypeScript**<br><sub>Current Focus</sub> | **Java**<br><sub>In the build queue</sub> | **HTML**<br><sub>In the build queue</sub> |
+<h2 align="left">Built, shipped, shared</h2>
+<img src="./assets/projects-card.svg" width="100%" alt="Project constellation" />
 
-> *Refactoring is useful when the goal is clear behind it.*
+<br><br>
+<div align="center">◇──────────────◇</div>
+<br><br>
 
----
+<h2 align="left">The Trail Behind the Work</h2>
+<img src="./assets/energy-card.svg" width="100%" alt="Contribution energy matrix" />
 
-## 🛠️ The tools behind the signal
-
-| Tool | Metric |
-| :--- | :--- |
-| **TypeScript** | ![Progress](https://progress-bar.dev/45/?title=code&color=34d399&width=200) |
-| **Java** | ![Progress](https://progress-bar.dev/25/?title=code&color=34d399&width=200) |
-| **Dart** | ![Progress](https://progress-bar.dev/20/?title=code&color=34d399&width=200) |
-| **HTML** | ![Progress](https://progress-bar.dev/10/?title=code&color=34d399&width=200) |
-
-> *TypeScript · Java · HTML · Dart · JavaScript · CSS · C++ · Docker — chosen for the work, not the trend.*
-
----
-
-## 🚀 Built, shipped, shared — Where the work went next
-
-<div align="center">
-  <img src="./assets/projects-card.svg" width="100%" alt="Projects Constellation" />
 </div>

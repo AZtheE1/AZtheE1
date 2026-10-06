@@ -1,0 +1,18 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="220" rx="8" fill="#131c18" stroke="#1f2937" stroke-width="1"/>
+  <text x="40" y="40" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="2">CONTRIBUTION MATRIX</text>
+  <text x="40" y="75" fill="#e2e8f0" font-family="monospace" font-size="20" font-weight="bold">Every day leaves a trace</text>
+  <line x1="40" y1="100" x2="860" y2="100" stroke="#1f2937" stroke-width="1" stroke-dasharray="8 8"/>
+  <g fill="#34d399">
+    <circle cx="100" cy="150" r="2" opacity="0.2"/><circle cx="120" cy="150" r="3" opacity="0.5"/>
+    <circle cx="140" cy="150" r="4" opacity="0.8"/><circle cx="160" cy="140" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)"/>
+    <circle cx="180" cy="160" r="3" opacity="0.6"/><circle cx="200" cy="150" r="2" opacity="0.3"/>
+    <circle cx="300" cy="170" r="2" opacity="0.4"/><circle cx="320" cy="160" r="4" opacity="0.7"/>
+    <circle cx="340" cy="130" r="5" opacity="1.0"/><circle cx="360" cy="140" r="3" opacity="0.5"/>
+    <circle cx="500" cy="160" r="4" opacity="0.8"/><circle cx="520" cy="150" r="3" opacity="0.6"/>
+    <circle cx="540" cy="150" r="2" opacity="0.4"/><circle cx="700" cy="150" r="5" opacity="1.0" filter="drop-shadow(0 0 4px #34d399)"/>
+    <circle cx="720" cy="140" r="4" opacity="0.8"/><circle cx="740" cy="160" r="3" opacity="0.5"/>
+    <circle cx="760" cy="170" r="2" opacity="0.2"/>
+  </g>
+  <text x="450" y="200" fill="#94a3b8" font-family="sans-serif" font-size="12" text-anchor="middle">1 day current streak · 90 active days</text>
+</svg>
