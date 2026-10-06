@@ -238,6 +238,11 @@ def get_repo_score(repo):
     for kw in ['ai', 'fullstack', 'full-stack', 'nextjs', 'python', 'pytorch', 'machine-learning', 'react', 'fastapi', 'llm', 'langchain']:
         if kw in topics or kw in name_lower:
             score += 100
+            
+    # Guarantee specific core repositories from the execution plan appear first
+    if 'e-voting' in name_lower or 'salesman-ai' in name_lower or 'sslcommerz' in name_lower:
+        score += 1000
+        
     return score
 
 def main():
