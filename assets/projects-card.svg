@@ -1,0 +1,24 @@
+<svg width="850" height="300" viewBox="0 0 850 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="300" rx="12" fill="#0b0f10" stroke="#1f2937" stroke-width="2"/>
+  <text x="40" y="50" fill="#94a3b8" font-family="monospace" font-size="12" letter-spacing="2">PROJECT CONSTELLATION</text>
+  <text x="40" y="90" fill="#e2e8f0" font-family="monospace" font-size="24" font-weight="bold">A universe of work</text>
+  <line x1="40" y1="120" x2="810" y2="120" stroke="#1f2937" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <circle cx="150" cy="180" r="40" fill="#131c18" stroke="#34d399" stroke-width="2"/>
+  <circle cx="150" cy="180" r="50" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="150" y="186" fill="#34d399" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle">S</text>
+  <text x="150" y="255" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle">salesman-ai</text>
+  <text x="150" y="275" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">HTML • 0 stars</text>
+
+  <circle cx="420" cy="180" r="40" fill="#131c18" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="420" cy="180" r="50" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="420" y="186" fill="#06b6d4" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle">C</text>
+  <text x="420" y="255" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle">case-study-SSLcom...</text>
+  <text x="420" y="275" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">JavaScript • 1 stars</text>
+
+  <circle cx="690" cy="180" r="40" fill="#131c18" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="690" cy="180" r="50" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="690" y="186" fill="#f59e0b" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle">E</text>
+  <text x="690" y="255" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle">E-Voting</text>
+  <text x="690" y="275" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">Java • 1 stars</text>
+</svg>
