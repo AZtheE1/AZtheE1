@@ -21,13 +21,11 @@
   <text x="50" y="180" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold">TypeScript / Java / Dart</text>
   <text x="50" y="210" fill="#94a3b8" font-family="monospace" font-size="12">Dhaka, Mirpur 12</text>
   
-  <!-- Pulsing Background Ring -->
   <circle cx="700" cy="150" r="105" fill="none" stroke="url(#glow)" stroke-width="3" filter="url(#blur)">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
     <animate attributeName="r" values="95;105;95" dur="2s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Rotating dashed ring -->
   <circle cx="700" cy="150" r="130" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 8" opacity="0.4">
     <animateTransform attributeName="transform" type="rotate" from="0 700 150" to="360 700 150" dur="20s" repeatCount="indefinite"/>
   </circle>

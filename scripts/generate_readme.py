@@ -8,6 +8,58 @@ def get_base64_image(image_path):
             return "data:image/png;base64," + base64.b64encode(f.read()).decode('utf-8')
     return ""
 
+def generate_wordmark_svg():
+    ascii_art = [
+        "SS`         SS`   SSSSSSS+++`                  SSSSSSSSSSSSS`` SSSSSSSSSSSSS`  SS`       SS``   SSSSSSS``     SSSSSSSSSSSSS`` ",
+        "SS`SS`   SSSSS`   SS`+++++++=SS`               ++++++++++++S`` ++++++SSS+++++``SS`       SS``   ++++++++``    SSS++++++++++++`",
+        "SS`++`SS`=++SS`   SS`        SS`               ++++++++++++S``  ++++++S``++++= SS`       SS`` SS`+++++++=``   SS`++++++++++=S``",
+        "SS`  ++`    SS`   SS`        SS`                       SS`++`         SS``     SSS+++++++S``  SS`      SS``   SS`          SS``",
+        "SS`  =+=    SS`   SS`        SS`                       SS`++=         SS``     SSS+++++++S``  SSSSSSSSSSSSS`` SS`          SS``",
+        "SS`         SS`   SS`        SS`                       SS`++`         SS``     SS`       SS`` SS`++++++++++`` SS`          S```",
+        "SS`         SS`   SS`        SS`                       ++`            SS``     SS`       SS`` SS`        SS`` SS`          SS``",
+        "SS`         SS`   SS`        SS`   SSSSS`              SS`++=         SS``     SS`       SS`` SS`        SS`` SS`          S++`",
+        "SS`         SS`   SS`SSSSSSS`++`   SSSSS`              SS`SSSSSSSSS`` SSSSSSSS`SSSS``SS`       SS`` SS`        SS`` SS`SSSSSSS`++=",
+        "++`         ++`   +++++++++++`     +++++`              +++++++++++++` ++++++++++++++`++`       +++` +++`       +++` +++++++++++`",
+        "=+=         ++=   +++++++++++      +++++=                                                                                       "
+    ]
+    
+    svg = """<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="250" rx="8" fill="#0b0f10" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- macOS window controls -->
+  <circle cx="20" cy="20" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="20" r="5" fill="#f59e0b"/>
+  <circle cx="60" cy="20" r="5" fill="#22c55e"/>
+  
+  <text x="450" y="24" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">azthee1@github: ~$ ./wordmark.sh --name</text>
+  <text x="880" y="240" fill="#1f2937" font-family="monospace" font-size="10" text-anchor="end">gitskins.com</text>
+  
+  <!-- Moving Group -->
+  <g clip-path="url(#reveal)">
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="0" height="250">
+        <!-- Typing reveal effect -->
+        <animate attributeName="width" values="0;900;900" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+"""
+    y_start = 80
+    for i, line in enumerate(ascii_art):
+        svg += f'    <text x="50" y="{y_start + i*12}" fill="#e2e8f0" font-family="monospace" font-size="10" xml:space="preserve">{line}</text>\n'
+        
+    svg += """
+    <!-- Slow hover/parallax movement -->
+    <animateTransform attributeName="transform" type="translate" values="0,0; 10,0; -10,0; 0,0" dur="8s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Glowing scanline sweeping up and down -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#34d399" stroke-width="2" opacity="0.3">
+    <animate attributeName="y1" values="40;250;40" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="40;250;40" dur="4s" repeatCount="indefinite" />
+  </line>
+</svg>"""
+    return svg
+
 def generate_hero_svg(avatar_b64, stats):
     repos = stats.get('public_repos', 12)
     followers = stats.get('followers', 7)
@@ -35,13 +87,11 @@ def generate_hero_svg(avatar_b64, stats):
   <text x="50" y="180" fill="#e2e8f0" font-family="monospace" font-size="16" font-weight="bold">TypeScript / Java / Dart</text>
   <text x="50" y="210" fill="#94a3b8" font-family="monospace" font-size="12">Dhaka, Mirpur 12</text>
   
-  <!-- Pulsing Background Ring -->
   <circle cx="700" cy="150" r="105" fill="none" stroke="url(#glow)" stroke-width="3" filter="url(#blur)">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
     <animate attributeName="r" values="95;105;95" dur="2s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Rotating dashed ring -->
   <circle cx="700" cy="150" r="130" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 8" opacity="0.4">
     <animateTransform attributeName="transform" type="rotate" from="0 700 150" to="360 700 150" dur="20s" repeatCount="indefinite"/>
   </circle>
@@ -262,6 +312,7 @@ def main():
     os.makedirs('assets', exist_ok=True)
     avatar_b64 = get_base64_image('assets/avatar-dithered.png')
     
+    with open('assets/wordmark-card.svg', 'w', encoding='utf-8') as f: f.write(generate_wordmark_svg())
     with open('assets/hero-card.svg', 'w', encoding='utf-8') as f: f.write(generate_hero_svg(avatar_b64, user_stats))
     with open('assets/identity-card.svg', 'w', encoding='utf-8') as f: f.write(generate_identity_svg(user_stats))
     with open('assets/ideas-card.svg', 'w', encoding='utf-8') as f: f.write(generate_ideas_svg())
